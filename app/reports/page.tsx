@@ -1,9 +1,25 @@
 "use client";
 import React, { useState, useRef, useEffect, useCallback } from "react";
-import SectionSidebar from "../../components/SectionSidebar";
-import InteractiveTable from "../../components/InteractiveTable";
-import { BarChartComponent, LineChartComponent, PieChartComponent, StackedBarChartComponent, ComparisonChartComponent } from "../../components/Charts";
+import dynamic from "next/dynamic";
 import sectionsData from "../../data/sections.json";
+
+// Dynamically import components that use browser APIs
+const SectionSidebar = dynamic(() => import("../../components/SectionSidebar"), {
+  ssr: false,
+});
+
+const InteractiveTable = dynamic(() => import("../../components/InteractiveTable"), {
+  ssr: false,
+});
+
+const Charts = dynamic(
+  () => import("../../components/Charts").then((mod) => ({
+    default: mod,
+  })),
+  {
+    ssr: false,
+  }
+);
 
 const colors = {
   primary: {
@@ -84,10 +100,18 @@ export default function ReportsPage() {
   const [selectedChartType, setSelectedChartType] = useState<"bar" | "line" | "pie" | "stacked" | "comparison">("bar");
   const [loadedSections, setLoadedSections] = useState<Set<string>>(new Set([sectionsData[0]?.id || ""]));
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const sectionRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const observerRef = useRef<IntersectionObserver | null>(null);
 
+  // Ensure component is mounted before using browser APIs
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -104,7 +128,7 @@ export default function ReportsPage() {
 
     observerRef.current = observer;
     return () => observer.disconnect();
-  }, []);
+  }, [mounted]);
 
   const handleSectionRef = useCallback((id: string) => (el: HTMLDivElement | null) => {
     if (el) {
@@ -122,6 +146,21 @@ export default function ReportsPage() {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  // Show loading state during SSR
+  if (!mounted) {
+    return (
+      <div style={{ 
+        display: "flex", 
+        alignItems: "center", 
+        justifyContent: "center", 
+        height: "100vh",
+        fontFamily: "Inter, system-ui, -apple-system, 'Segoe UI'"
+      }}>
+        <div style={{ color: colors.primary[700] }}>Yükleniyor...</div>
+      </div>
+    );
+  }
 
   return (
     <div style={{ display: "flex", fontFamily: "Inter, system-ui, -apple-system, 'Segoe UI'", flexDirection: 'row' }}>
@@ -262,11 +301,10 @@ export default function ReportsPage() {
                       boxShadow: "0 1px 2px rgba(0,0,0,0.05)",
                       overflowX: 'auto',
                     }}>
-                      {selectedChartType === "bar" && <BarChartComponent data={section.rows} />}
-                      {selectedChartType === "line" && <LineChartComponent data={section.rows} />}
-                      {selectedChartType === "pie" && <PieChartComponent data={section.rows} />}
-                      {selectedChartType === "stacked" && <StackedBarChartComponent data={section.rows} />}
-                      {selectedChartType === "comparison" && <ComparisonChartComponent data={section.rows} />}
+                      <Charts 
+                        type={selectedChartType}
+                        data={section.rows}
+                      />
                     </div>
                   </div>
 
