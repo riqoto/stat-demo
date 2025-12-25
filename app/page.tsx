@@ -43,7 +43,9 @@ export default function Home() {
           Kalite Raporları
         </h1>
         <p
-          style={{\n            fontSize: 'clamp(16px, 4vw, 18px)',\n            color: colors.secondary[300],
+          style={{
+            fontSize: 'clamp(16px, 4vw, 18px)',
+            color: colors.secondary[300],
             marginBottom: '48px',
             maxWidth: '500px',
             marginLeft: 'auto',
