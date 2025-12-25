@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* Optimization config */
-  swcMinify: true,
   poweredByHeader: false,
   compress: true,
   productionBrowserSourceMaps: false,
