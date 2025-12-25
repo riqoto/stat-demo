@@ -3,22 +3,16 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import dynamic from "next/dynamic";
 import sectionsData from "../../data/sections.json";
 
-// Dynamically import components that use browser APIs
-const SectionSidebar = dynamic(() => import("../../components/SectionSidebar"), {
-  ssr: false,
-});
+const SectionSidebar = dynamic(() => import("../../components/SectionSidebar"), { ssr: false });
 
-const InteractiveTable = dynamic(() => import("../../components/InteractiveTable"), {
+const InteractiveTable = dynamic(() => import("../../components/InteractiveTable"), { 
   ssr: false,
+  loading: () => <div style={{ padding: '20px', textAlign: 'center' }}>Tablo yükleniyor...</div>
 });
 
 const Charts = dynamic(
-  () => import("../../components/Charts").then((mod) => ({
-    default: mod,
-  })),
-  {
-    ssr: false,
-  }
+  () => import("../../components/Charts").then((mod) => mod.default || mod.BarChartComponent),
+  { ssr: false }
 );
 
 const colors = {

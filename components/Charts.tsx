@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from "recharts";
 
 type Row = {
@@ -28,7 +28,31 @@ const colors = {
   },
 };
 
+function useWindowSize() {
+  const [windowSize, setWindowSize] = useState<{ width: number | undefined; isMobile: boolean }>({
+    width: undefined,
+    isMobile: false,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        isMobile: window.innerWidth < 640,
+      });
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowSize;
+}
 export function BarChartComponent({ data }: { data: Row[] }) {
+  const { width, isMobile } = useWindowSize();
+  const showLegend = width ? width > 768 : false;
+  const fontSize = isMobile ? 10 : 12;
+
   const chartData = data.map((row) => ({
     name: row.Program,
     "Kesinlikle Katılmıyorum": row.kesinlikle_katilmiyorum || 0,
@@ -46,10 +70,10 @@ export function BarChartComponent({ data }: { data: Row[] }) {
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={chartData} margin={{ top: 20, right: 10, left: 0, bottom: 60 }}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={window.innerWidth < 640 ? 10 : 12} />
-          <YAxis fontSize={window.innerWidth < 640 ? 10 : 12} />
+          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={fontSize} />
+          <YAxis fontSize={fontSize} />
           <Tooltip formatter={(value) => `${(value as number).toFixed(1)}%`} />
-          {window.innerWidth > 768 && <Legend />}
+          {showLegend && <Legend />}
           <Bar dataKey="Kesinlikle Katılmıyorum" fill={colors.responses["Kesinlikle Katılmıyorum"]} />
           <Bar dataKey="Katılmıyorum" fill={colors.responses["Katılmıyorum"]} />
           <Bar dataKey="Kararsızım" fill={colors.responses["Kararsızım"]} />
@@ -62,6 +86,12 @@ export function BarChartComponent({ data }: { data: Row[] }) {
 }
 
 export function LineChartComponent({ data }: { data: Row[] }) {
+  const { width, isMobile } = useWindowSize();
+  const showLegend = width ? width > 768 : false;
+
+  const fontSize = isMobile ? 10 : 12;
+  const showDots = width ? width > 768 : false;
+
   const chartData = data.map((row) => ({
     name: row.Program,
     "Kesinlikle Katılmıyorum": row.kesinlikle_katilmiyorum || 0,
@@ -79,15 +109,15 @@ export function LineChartComponent({ data }: { data: Row[] }) {
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={chartData} margin={{ top: 20, right: 10, left: 0, bottom: 60 }}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={window.innerWidth < 640 ? 10 : 12} />
-          <YAxis fontSize={window.innerWidth < 640 ? 10 : 12} />
+          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={fontSize} />
+          <YAxis fontSize={fontSize} />
           <Tooltip formatter={(value) => `${(value as number).toFixed(1)}%`} />
-          {window.innerWidth > 768 && <Legend />}
-          <Line type="monotone" dataKey="Kesinlikle Katılmıyorum" stroke={colors.responses["Kesinlikle Katılmıyorum"]} strokeWidth={2} dot={window.innerWidth > 768} />
-          <Line type="monotone" dataKey="Katılmıyorum" stroke={colors.responses["Katılmıyorum"]} strokeWidth={2} dot={window.innerWidth > 768} />
-          <Line type="monotone" dataKey="Kararsızım" stroke={colors.responses["Kararsızım"]} strokeWidth={2} dot={window.innerWidth > 768} />
-          <Line type="monotone" dataKey="Katılıyorum" stroke={colors.responses["Katılıyorum"]} strokeWidth={2} dot={window.innerWidth > 768} />
-          <Line type="monotone" dataKey="Kesinlikle Katılıyorum" stroke={colors.responses["Kesinlikle Katılıyorum"]} strokeWidth={2} dot={window.innerWidth > 768} />
+          {showLegend && <Legend />}
+          <Line type="monotone" dataKey="Kesinlikle Katılmıyorum" stroke={colors.responses["Kesinlikle Katılmıyorum"]} strokeWidth={2} dot={showDots} />
+          <Line type="monotone" dataKey="Katılmıyorum" stroke={colors.responses["Katılmıyorum"]} strokeWidth={2} dot={showDots} />
+          <Line type="monotone" dataKey="Kararsızım" stroke={colors.responses["Kararsızım"]} strokeWidth={2} dot={showDots} />
+          <Line type="monotone" dataKey="Katılıyorum" stroke={colors.responses["Katılıyorum"]} strokeWidth={2} dot={showDots} />
+          <Line type="monotone" dataKey="Kesinlikle Katılıyorum" stroke={colors.responses["Kesinlikle Katılıyorum"]} strokeWidth={2} dot={showDots} />
         </LineChart>
       </ResponsiveContainer>
     </div>
@@ -95,6 +125,8 @@ export function LineChartComponent({ data }: { data: Row[] }) {
 }
 
 export function PieChartComponent({ data }: { data: Row[] }) {
+  const { isMobile } = useWindowSize();
+  
   // Aggregate data across all programs
   const aggregated = {
     "Kesinlikle Katılmıyorum": 0,
@@ -120,7 +152,6 @@ export function PieChartComponent({ data }: { data: Row[] }) {
       value: parseFloat(((value / total) * 100).toFixed(1)),
     }));
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
   const outerRadius = isMobile ? 80 : 120;
 
   return (
@@ -152,6 +183,10 @@ export function PieChartComponent({ data }: { data: Row[] }) {
 }
 
 export function StackedBarChartComponent({ data }: { data: Row[] }) {
+  const { width, isMobile } = useWindowSize();
+  const showLegend = width ? width > 768 : false;
+  const fontSize = isMobile ? 10 : 12;
+
   const chartData = data.map((row) => ({
     name: row.Program,
     "Kesinlikle Katılmıyorum": row.kesinlikle_katilmiyorum || 0,
@@ -169,10 +204,10 @@ export function StackedBarChartComponent({ data }: { data: Row[] }) {
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={chartData} margin={{ top: 20, right: 10, left: 0, bottom: 60 }}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={window.innerWidth < 640 ? 10 : 12} />
-          <YAxis fontSize={window.innerWidth < 640 ? 10 : 12} />
+          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={fontSize} />
+          <YAxis fontSize={fontSize} />
           <Tooltip formatter={(value) => `${(value as number).toFixed(1)}%`} />
-          {window.innerWidth > 768 && <Legend />}
+          {showLegend && <Legend />}
           <Bar dataKey="Kesinlikle Katılmıyorum" stackId="a" fill={colors.responses["Kesinlikle Katılmıyorum"]} />
           <Bar dataKey="Katılmıyorum" stackId="a" fill={colors.responses["Katılmıyorum"]} />
           <Bar dataKey="Kararsızım" stackId="a" fill={colors.responses["Kararsızım"]} />
@@ -185,6 +220,10 @@ export function StackedBarChartComponent({ data }: { data: Row[] }) {
 }
 
 export function ComparisonChartComponent({ data }: { data: Row[] }) {
+  const { width, isMobile } = useWindowSize();
+  const showLegend = width ? width > 768 : false;
+  const fontSize = isMobile ? 10 : 12;
+
   // Compare positive vs negative vs neutral responses
   const chartData = data.map((row) => ({
     name: row.Program,
@@ -201,10 +240,10 @@ export function ComparisonChartComponent({ data }: { data: Row[] }) {
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={chartData} margin={{ top: 20, right: 10, left: 0, bottom: 60 }}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={window.innerWidth < 640 ? 10 : 12} />
-          <YAxis fontSize={window.innerWidth < 640 ? 10 : 12} />
+          <XAxis dataKey="name" angle={-45} textAnchor="end" height={100} fontSize={fontSize} />
+          <YAxis fontSize={fontSize} />
           <Tooltip formatter={(value) => `${(value as number).toFixed(1)}%`} />
-          {window.innerWidth > 768 && <Legend />}
+          {showLegend && <Legend />}
           <Bar dataKey="Olumsuz" fill="#DC2626" />
           <Bar dataKey="Nötr" fill="#D97706" />
           <Bar dataKey="Olumlu" fill="#059669" />
@@ -212,4 +251,14 @@ export function ComparisonChartComponent({ data }: { data: Row[] }) {
       </ResponsiveContainer>
     </div>
   );
+}
+export default function Charts({ type, data }: { type: string; data: Row[] }) {
+  switch (type) {
+    case "bar": return <BarChartComponent data={data} />;
+    case "line": return <LineChartComponent data={data} />;
+    case "pie": return <PieChartComponent data={data} />;
+    case "stacked": return <StackedBarChartComponent data={data} />;
+    case "comparison": return <ComparisonChartComponent data={data} />;
+    default: return <BarChartComponent data={data} />;
+  }
 }
