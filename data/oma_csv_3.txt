@@ -1,0 +1,8 @@
+Kategori,Birikim 1,Birikim 2,Birikim 3,Birikim 4,Birikim 5,Birikiml yuzde
+Kesinlikle katilmiyorum,0,0,0,14.3,0,14.3
+Katilmiyorum,0,0,0,21.7,0,21.7
+Kararsizim,0,0,0,17.0,0,17.0
+Katiliyorum,0,0,0,25.6,0,25.6
+Kesinlikle katiliyorum,0,0,0,11.1,0,11.1
+Fikrim yok,0,0,0,10.3,0,10.3
+Toplam,0,0,0,100.0,0,100.0

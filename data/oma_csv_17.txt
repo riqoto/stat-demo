@@ -1,0 +1,7 @@
+Soru,Kesinlikle Katilmiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Chi kare,p,Toplam
+Akademik danismanim yeterli rehberlik sagliyor,5.6,10.4,16.8,44.3,22.9,21.7,0,100.0
+Danismanimla kolayca iletisim kurabiliyorum,4.9,9.7,14.6,46.8,24.0,25.3,0,100.0
+Ders secimlerinde danismanim etkili destek veriyor,5.3,10.1,15.9,45.2,23.5,23.1,0,100.0
+Kariyer planlama konusunda yonlendirme aliyorum,7.8,13.6,18.4,39.7,20.5,17.4,0,100.0
+Psikolojik danismanlik hizmetleri erislebilir,9.2,14.8,22.3,35.6,18.1,14.2,0,100.0
+Ogrenci isleri personeli yardimci ve bilgili,6.4,11.3,17.2,42.8,22.3,19.6,0,100.0

@@ -1,0 +1,9 @@
+Soru,Kesinlikle Katilmiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Chi kare,p,Toplam
+Derslikler temiz ve duzenli,4.8,9.2,13.6,48.7,23.7,27.9,0,100.0
+Derslik donanimlari (projeksiyon vb) yeterli,5.6,10.8,14.9,45.3,23.4,24.2,0,100.0
+Kampus alanlari guvenli,3.9,8.4,12.7,50.2,24.8,31.5,0,100.0
+Spor tesisleri yeterli ve kaliteli,9.7,15.3,18.6,38.4,18.0,15.8,0,100.0
+Yesil alanlar ve dinlenme alanlari yeterli,7.8,13.2,16.4,42.6,20.0,18.4,0,100.0
+Otopark imkanlari yeterli,12.4,18.7,19.3,34.2,15.4,11.6,0,100.0
+Kampus icinde ulasim kolay,6.2,11.4,15.8,44.9,21.7,20.8,0,100.0
+Engelli erisilebilirligi yeterli,8.9,14.6,20.4,38.7,17.4,14.9,0,100.0

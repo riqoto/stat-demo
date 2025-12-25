@@ -1,0 +1,9 @@
+Soru,Kesinlikle Katilmiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Chi kare,p,Toplam
+Derslerde ogretim yontemleri etkili,3.9,7.8,12.6,50.3,25.4,32.7,0,100.0
+Ders materyalleri yeterli ve erislebilir,4.6,8.9,14.2,47.8,24.5,28.3,0,100.0
+Sinif mevcutlari uygun,5.3,9.7,13.8,46.9,24.3,26.8,0,100.0
+Ders programi dengeli ve uygulanabilir,4.8,10.3,15.7,44.6,24.6,24.1,0,100.0
+Secmeli ders secenekleri yeterli ve cesitli,7.2,12.6,16.9,41.3,22.0,19.5,0,100.0
+Cift anadal ve yan dal programlari erislebilir,8.4,13.8,19.4,38.7,19.7,16.8,0,100.0
+Egitim dilinin kalitesi yuksek,3.7,7.4,11.9,51.2,25.8,34.9,0,100.0
+Universite diplomasinin prestiji yuksek,4.2,8.6,14.3,47.3,25.6,29.4,0,100.0

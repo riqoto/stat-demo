@@ -1,0 +1,7 @@
+Soru,Kesinlikle Katilmiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Chi kare,p,Toplam
+Erasmus ve degisim programlari hakkinda bilgilendirme yeterli,8.4,13.7,18.9,38.6,20.4,16.2,0,100.0
+Yurt disi universite isbirklikleri aktif,7.9,12.8,20.3,39.4,19.6,15.8,0,100.0
+Uluslararasi ogrencilere destek yeterli,9.6,15.2,22.7,35.8,16.7,13.4,0,100.0
+Yabanci dil egitimi kaliteli,6.8,11.4,16.9,42.7,22.2,19.3,0,100.0
+Kampuste uluslararasi ortam var,8.7,14.3,19.6,38.9,18.5,15.2,0,100.0
+Cift diploma programlari erislebilir,11.2,17.4,23.8,32.6,15.0,10.9,0,100.0

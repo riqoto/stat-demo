@@ -1,0 +1,38 @@
+[
+  {
+    "program": "Lisans",
+    "kesinlikle": 15.2,
+    "katiliyorum": 15.3,
+    "kararsiz": 23.9,
+    "katilmiyorum": 28.0,
+    "kesinlikle_katilmiyorum": 9.0,
+    "fikrim_yok": 8.7
+  },
+  {
+    "program": "Lisansüstü",
+    "kesinlikle": 22.3,
+    "katiliyorum": 19.2,
+    "kararsiz": 21.3,
+    "katilmiyorum": 23.5,
+    "kesinlikle_katilmiyorum": 7.2,
+    "fikrim_yok": 6.5
+  },
+  {
+    "program": "Yüksek Lisans",
+    "kesinlikle": 11.9,
+    "katiliyorum": 13.4,
+    "kararsiz": 7.1,
+    "katilmiyorum": 35.2,
+    "kesinlikle_katilmiyorum": 17.0,
+    "fikrim_yok": 15.4
+  },
+  {
+    "program": "Doktora",
+    "kesinlikle": 12.9,
+    "katiliyorum": 10.4,
+    "kararsiz": 15.3,
+    "katilmiyorum": 31.3,
+    "kesinlikle_katilmiyorum": 27.7,
+    "fikrim_yok": 2.4
+  }
+]

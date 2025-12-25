@@ -1,0 +1,7 @@
+Program,Katilimiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Chi kare,p,Toplam
+On lisans,9.2,7.4,8.8,28.0,9.0,47.4,0,100.0
+Yuksek Lisans,11.9,13.4,7.1,35.2,17.0,15.4,0,100.0
+Lisans,0,0,0,0,0,0,0,100.0
+Doktora,0,0,0,0,0,0,0,100.0
+Toplam,13.1,17.1,13.7,26.6,10.7,7.9,0,100.0
+Genel Chi2 Prob.,192.541,0,0,0,0,0,0,0

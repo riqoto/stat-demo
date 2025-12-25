@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "section_1",
+    "title": "İyileştirme Çalışmaları",
+    "description": "İyileştirme Çalışmaları ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 7.4,
+        "kararsizim": 8.8,
+        "katiliyorum": 28,
+        "kesinlikle_katiliyorum": 9,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 13.4,
+        "kararsizim": 7.1,
+        "katiliyorum": 35.2,
+        "kesinlikle_katiliyorum": 17,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      }
+    ]
+  },
+  
+  {
+    "id": "section_2",
+    "title": "Öğrenme Ortamları ve Kaynakları",
+    "description": "Öğrenme Ortamları ve Kaynakları ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 5.3,
+        "katilmiyorum": 8.9,
+        "kararsizim": 10.2,
+        "katiliyorum": 52.3,
+        "kesinlikle_katiliyorum": 23.3,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 4.1,
+        "katilmiyorum": 7.2,
+        "kararsizim": 8.9,
+        "katiliyorum": 54.8,
+        "kesinlikle_katiliyorum": 25,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 4.8,
+        "katilmiyorum": 8.1,
+        "kararsizim": 9.6,
+        "katiliyorum": 53.4,
+        "kesinlikle_katiliyorum": 24.1,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 3.5,
+        "katilmiyorum": 6.4,
+        "kararsizim": 7.8,
+        "katiliyorum": 56.2,
+        "kesinlikle_katiliyorum": 26.1,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_4",
+    "title": "Ders İçeriği ve Uygulaması",
+    "description": "Ders İçeriği ve Uygulaması ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 3.8,
+        "katilmiyorum": 6.5,
+        "kararsizim": 9.4,
+        "katiliyorum": 58.2,
+        "kesinlikle_katiliyorum": 22.1,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 2.9,
+        "katilmiyorum": 5.3,
+        "kararsizim": 7.8,
+        "katiliyorum": 60.5,
+        "kesinlikle_katiliyorum": 23.5,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 3.4,
+        "katilmiyorum": 5.9,
+        "kararsizim": 8.6,
+        "katiliyorum": 59.3,
+        "kesinlikle_katiliyorum": 22.8,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 2.2,
+        "katilmiyorum": 4.7,
+        "kararsizim": 6.9,
+        "katiliyorum": 62.1,
+        "kesinlikle_katiliyorum": 24.1,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_5",
+    "title": "Öğretim Elemanlarının Nitelikleri",
+    "description": "Öğretim Elemanlarının Nitelikleri ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 15.7,
+        "katilmiyorum": 22.4,
+        "kararsizim": 18.9,
+        "katiliyorum": 30.5,
+        "kesinlikle_katiliyorum": 12.5,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 13.2,
+        "katilmiyorum": 19.8,
+        "kararsizim": 16.7,
+        "katiliyorum": 35.2,
+        "kesinlikle_katiliyorum": 15.1,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 14.5,
+        "katilmiyorum": 21.1,
+        "kararsizim": 17.8,
+        "katiliyorum": 32.8,
+        "kesinlikle_katiliyorum": 13.8,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 11.9,
+        "katilmiyorum": 18.3,
+        "kararsizim": 15.4,
+        "katiliyorum": 37.6,
+        "kesinlikle_katiliyorum": 16.8,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_6",
+    "title": "Ölçme ve Değerlendirme",
+    "description": "Ölçme ve Değerlendirme ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 9.6,
+        "katilmiyorum": 14.8,
+        "kararsizim": 16.3,
+        "katiliyorum": 41.2,
+        "kesinlikle_katiliyorum": 18.1,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 7.8,
+        "katilmiyorum": 12.5,
+        "kararsizim": 14.7,
+        "katiliyorum": 45.3,
+        "kesinlikle_katiliyorum": 19.7,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 8.7,
+        "katilmiyorum": 13.7,
+        "kararsizim": 15.5,
+        "katiliyorum": 43.1,
+        "kesinlikle_katiliyorum": 19,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 6.9,
+        "katilmiyorum": 11.2,
+        "kararsizim": 13.4,
+        "katiliyorum": 47.8,
+        "kesinlikle_katiliyorum": 20.7,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_7",
+    "title": "Kariyer Rehberliği",
+    "description": "Kariyer Rehberliği ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 18.4,
+        "katilmiyorum": 25.6,
+        "kararsizim": 19.7,
+        "katiliyorum": 26.8,
+        "kesinlikle_katiliyorum": 9.5,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 16.2,
+        "katilmiyorum": 23.1,
+        "kararsizim": 17.9,
+        "katiliyorum": 30.4,
+        "kesinlikle_katiliyorum": 12.4,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 17.3,
+        "katilmiyorum": 24.4,
+        "kararsizim": 18.8,
+        "katiliyorum": 28.6,
+        "kesinlikle_katiliyorum": 10.9,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 14.8,
+        "katilmiyorum": 21.5,
+        "kararsizim": 16.5,
+        "katiliyorum": 32.7,
+        "kesinlikle_katiliyorum": 14.5,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_8",
+    "title": "Sosyal ve Kültürel Faaliyetler",
+    "description": "Sosyal ve Kültürel Faaliyetler ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 11.3,
+        "katilmiyorum": 16.7,
+        "kararsizim": 13.8,
+        "katiliyorum": 43.5,
+        "kesinlikle_katiliyorum": 14.7,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 9.4,
+        "katilmiyorum": 14.2,
+        "kararsizim": 11.9,
+        "katiliyorum": 47.8,
+        "kesinlikle_katiliyorum": 16.7,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 10.4,
+        "katilmiyorum": 15.5,
+        "kararsizim": 12.9,
+        "katiliyorum": 45.6,
+        "kesinlikle_katiliyorum": 15.6,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 8.1,
+        "katilmiyorum": 12.8,
+        "kararsizim": 10.7,
+        "katiliyorum": 50.3,
+        "kesinlikle_katiliyorum": 18.1,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_9",
+    "title": "Engelli Öğrenci Destekleri",
+    "description": "Engelli Öğrenci Destekleri ile ilgili anket sonuçları",
+    "participantCount": 4,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "On lisans",
+        "kesinlikle_katilmiyorum": 6.8,
+        "katilmiyorum": 10.5,
+        "kararsizim": 12.3,
+        "katiliyorum": 51.2,
+        "kesinlikle_katiliyorum": 19.2,
+        "toplam": 100
+      },
+      {
+        "Program": "Yuksek Lisans",
+        "kesinlikle_katilmiyorum": 5.3,
+        "katilmiyorum": 8.7,
+        "kararsizim": 10.6,
+        "katiliyorum": 54.8,
+        "kesinlikle_katiliyorum": 20.6,
+        "toplam": 100
+      },
+      {
+        "Program": "Lisans",
+        "kesinlikle_katilmiyorum": 6.1,
+        "katilmiyorum": 9.6,
+        "kararsizim": 11.5,
+        "katiliyorum": 52.9,
+        "kesinlikle_katiliyorum": 19.9,
+        "toplam": 100
+      },
+      {
+        "Program": "Doktora",
+        "kesinlikle_katilmiyorum": 4.5,
+        "katilmiyorum": 7.8,
+        "kararsizim": 9.4,
+        "katiliyorum": 56.3,
+        "kesinlikle_katiliyorum": 22,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_10",
+    "title": "İdari ve Mali Hizmetler",
+    "description": "İdari ve Mali Hizmetler ile ilgili anket sonuçları",
+    "participantCount": 30,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 8.7,
+        "katilmiyorum": 9.4,
+        "kararsizim": 15.3,
+        "katiliyorum": 41.2,
+        "kesinlikle_katiliyorum": 25.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SOSYOLOJI",
+        "kesinlikle_katilmiyorum": 3.2,
+        "katilmiyorum": 5.8,
+        "kararsizim": 8.9,
+        "katiliyorum": 48.7,
+        "kesinlikle_katiliyorum": 33.4,
+        "toplam": 100
+      },
+      {
+        "Program": "MAKINE MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 5.7,
+        "katilmiyorum": 10.8,
+        "kararsizim": 17.6,
+        "katiliyorum": 39.6,
+        "kesinlikle_katiliyorum": 26.3,
+        "toplam": 100
+      },
+      {
+        "Program": "SOSYOLOJI",
+        "kesinlikle_katilmiyorum": 6.4,
+        "katilmiyorum": 7.9,
+        "kararsizim": 0,
+        "katiliyorum": 48.5,
+        "kesinlikle_katiliyorum": 37.2,
+        "toplam": 100
+      },
+      {
+        "Program": "MAKINE MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 9.5,
+        "katilmiyorum": 0,
+        "kararsizim": 12.7,
+        "katiliyorum": 43.2,
+        "kesinlikle_katiliyorum": 34.6,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 8.6,
+        "katilmiyorum": 8.3,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "ELEKTRIK ELEKTRONIK MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 3.1,
+        "katilmiyorum": 10.4,
+        "kararsizim": 14.9,
+        "katiliyorum": 36.7,
+        "kesinlikle_katiliyorum": 17.9,
+        "toplam": 100
+      },
+      {
+        "Program": "TARIH",
+        "kesinlikle_katilmiyorum": 4.5,
+        "katilmiyorum": 7.3,
+        "kararsizim": 23.6,
+        "katiliyorum": 40.3,
+        "kesinlikle_katiliyorum": 19.3,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 3.2,
+        "katilmiyorum": 9.1,
+        "kararsizim": 21.6,
+        "katiliyorum": 46.7,
+        "kesinlikle_katiliyorum": 19.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 3.1,
+        "katilmiyorum": 8.9,
+        "kararsizim": 8.5,
+        "katiliyorum": 44.6,
+        "kesinlikle_katiliyorum": 26,
+        "toplam": 100
+      },
+      {
+        "Program": "HEMSIRELIK",
+        "kesinlikle_katilmiyorum": 4.1,
+        "katilmiyorum": 9.4,
+        "kararsizim": 17.3,
+        "katiliyorum": 35.1,
+        "kesinlikle_katiliyorum": 12.3,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 1,
+        "katilmiyorum": 8.6,
+        "kararsizim": 17.6,
+        "katiliyorum": 38.7,
+        "kesinlikle_katiliyorum": 18.2,
+        "toplam": 100
+      },
+      {
+        "Program": "ELEKTRIK ELEKTRONIK MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 2.4,
+        "katilmiyorum": 3.8,
+        "kararsizim": 21.6,
+        "katiliyorum": 42.8,
+        "kesinlikle_katiliyorum": 22.5,
+        "toplam": 100
+      },
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "MIMARLIK",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 3.3,
+        "kararsizim": 7.8,
+        "katiliyorum": 53.5,
+        "kesinlikle_katiliyorum": 35.5,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SOSYOLOJI",
+        "kesinlikle_katilmiyorum": 2.5,
+        "katilmiyorum": 10.2,
+        "kararsizim": 18.8,
+        "katiliyorum": 39.3,
+        "kesinlikle_katiliyorum": 24,
+        "toplam": 100
+      },
+      {
+        "Program": "MIMARLIK",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 6.7,
+        "katilmiyorum": 10.6,
+        "kararsizim": 17.6,
+        "katiliyorum": 39.6,
+        "kesinlikle_katiliyorum": 22.2,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      },
+      {
+        "Program": "MAKINE MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 3.9,
+        "katilmiyorum": 11.5,
+        "kararsizim": 22.8,
+        "katiliyorum": 36.2,
+        "kesinlikle_katiliyorum": 15.5,
+        "toplam": 100
+      },
+      {
+        "Program": "SPOR BILIMLERI",
+        "kesinlikle_katilmiyorum": 3.8,
+        "katilmiyorum": 8.5,
+        "kararsizim": 21.8,
+        "katiliyorum": 44.2,
+        "kesinlikle_katiliyorum": 17,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 0,
+        "katilmiyorum": 0,
+        "kararsizim": 0,
+        "katiliyorum": 0,
+        "kesinlikle_katiliyorum": 0,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_11",
+    "title": "Kütüphane Hizmetleri",
+    "description": "Kütüphane Hizmetleri ile ilgili anket sonuçları",
+    "participantCount": 8,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 2.8,
+        "katilmiyorum": 6.3,
+        "kararsizim": 11.4,
+        "katiliyorum": 52.8,
+        "kesinlikle_katiliyorum": 26.7,
+        "toplam": 100
+      },
+      {
+        "Program": "BILGISAYAR MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 3.1,
+        "katilmiyorum": 5.9,
+        "kararsizim": 9.8,
+        "katiliyorum": 54.2,
+        "kesinlikle_katiliyorum": 27,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 4.5,
+        "katilmiyorum": 8.7,
+        "kararsizim": 13.6,
+        "katiliyorum": 48.3,
+        "kesinlikle_katiliyorum": 24.9,
+        "toplam": 100
+      },
+      {
+        "Program": "SOSYOLOJI",
+        "kesinlikle_katilmiyorum": 2.9,
+        "katilmiyorum": 6.1,
+        "kararsizim": 10.2,
+        "katiliyorum": 51.7,
+        "kesinlikle_katiliyorum": 29.1,
+        "toplam": 100
+      },
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 3.4,
+        "katilmiyorum": 5.8,
+        "kararsizim": 12.3,
+        "katiliyorum": 49.6,
+        "kesinlikle_katiliyorum": 28.9,
+        "toplam": 100
+      },
+      {
+        "Program": "BILGISAYAR MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 5.8,
+        "katilmiyorum": 11.4,
+        "kararsizim": 16.7,
+        "katiliyorum": 43.2,
+        "kesinlikle_katiliyorum": 22.9,
+        "toplam": 100
+      },
+      {
+        "Program": "TARIH",
+        "kesinlikle_katilmiyorum": 6.2,
+        "katilmiyorum": 10.8,
+        "kararsizim": 18.4,
+        "katiliyorum": 41.5,
+        "kesinlikle_katiliyorum": 23.1,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 4.9,
+        "katilmiyorum": 9.6,
+        "kararsizim": 15.3,
+        "katiliyorum": 46.8,
+        "kesinlikle_katiliyorum": 23.4,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_12",
+    "title": "Bilgi İşlem ve Teknoloji",
+    "description": "Bilgi İşlem ve Teknoloji ile ilgili anket sonuçları",
+    "participantCount": 8,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 4.2,
+        "katilmiyorum": 8.6,
+        "kararsizim": 13.7,
+        "katiliyorum": 48.9,
+        "kesinlikle_katiliyorum": 24.6,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 7.8,
+        "katilmiyorum": 13.4,
+        "kararsizim": 16.2,
+        "katiliyorum": 42.3,
+        "kesinlikle_katiliyorum": 20.3,
+        "toplam": 100
+      },
+      {
+        "Program": "SPOR BILIMLERI",
+        "kesinlikle_katilmiyorum": 5.9,
+        "katilmiyorum": 10.7,
+        "kararsizim": 14.8,
+        "katiliyorum": 45.6,
+        "kesinlikle_katiliyorum": 23,
+        "toplam": 100
+      },
+      {
+        "Program": "MIMARLIK",
+        "kesinlikle_katilmiyorum": 6.4,
+        "katilmiyorum": 11.2,
+        "kararsizim": 17.3,
+        "katiliyorum": 43.8,
+        "kesinlikle_katiliyorum": 21.3,
+        "toplam": 100
+      },
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 5.7,
+        "katilmiyorum": 9.8,
+        "kararsizim": 15.6,
+        "katiliyorum": 46.2,
+        "kesinlikle_katiliyorum": 22.7,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 8.9,
+        "katilmiyorum": 14.6,
+        "kararsizim": 18.7,
+        "katiliyorum": 38.4,
+        "kesinlikle_katiliyorum": 19.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SPOR BILIMLERI",
+        "kesinlikle_katilmiyorum": 6.8,
+        "katilmiyorum": 11.9,
+        "kararsizim": 16.4,
+        "katiliyorum": 42.7,
+        "kesinlikle_katiliyorum": 22.2,
+        "toplam": 100
+      },
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 7.2,
+        "katilmiyorum": 12.8,
+        "kararsizim": 19.3,
+        "katiliyorum": 39.6,
+        "kesinlikle_katiliyorum": 21.1,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_13",
+    "title": "Yurtdışı Öğrenme Fırsatları",
+    "description": "Yurtdışı Öğrenme Fırsatları ile ilgili anket sonuçları",
+    "participantCount": 8,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 3.9,
+        "katilmiyorum": 7.8,
+        "kararsizim": 12.6,
+        "katiliyorum": 50.3,
+        "kesinlikle_katiliyorum": 25.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 4.6,
+        "katilmiyorum": 8.9,
+        "kararsizim": 14.2,
+        "katiliyorum": 47.8,
+        "kesinlikle_katiliyorum": 24.5,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 5.3,
+        "katilmiyorum": 9.7,
+        "kararsizim": 13.8,
+        "katiliyorum": 46.9,
+        "kesinlikle_katiliyorum": 24.3,
+        "toplam": 100
+      },
+      {
+        "Program": "BILGISAYAR MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 4.8,
+        "katilmiyorum": 10.3,
+        "kararsizim": 15.7,
+        "katiliyorum": 44.6,
+        "kesinlikle_katiliyorum": 24.6,
+        "toplam": 100
+      },
+      {
+        "Program": "TARIH",
+        "kesinlikle_katilmiyorum": 7.2,
+        "katilmiyorum": 12.6,
+        "kararsizim": 16.9,
+        "katiliyorum": 41.3,
+        "kesinlikle_katiliyorum": 22,
+        "toplam": 100
+      },
+      {
+        "Program": "HEMSIRELIK",
+        "kesinlikle_katilmiyorum": 8.4,
+        "katilmiyorum": 13.8,
+        "kararsizim": 19.4,
+        "katiliyorum": 38.7,
+        "kesinlikle_katiliyorum": 19.7,
+        "toplam": 100
+      },
+      {
+        "Program": "SPOR BILIMLERI",
+        "kesinlikle_katilmiyorum": 3.7,
+        "katilmiyorum": 7.4,
+        "kararsizim": 11.9,
+        "katiliyorum": 51.2,
+        "kesinlikle_katiliyorum": 25.8,
+        "toplam": 100
+      },
+      {
+        "Program": "ELEKTRIK ELEKTRONIK MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 4.2,
+        "katilmiyorum": 8.6,
+        "kararsizim": 14.3,
+        "katiliyorum": 47.3,
+        "kesinlikle_katiliyorum": 25.6,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_14",
+    "title": "Gözlemci Öğrenci Perspektifi",
+    "description": "Gözlemci Öğrenci Perspektifi ile ilgili anket sonuçları",
+    "participantCount": 6,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "ELEKTRIK ELEKTRONIK MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 5.6,
+        "katilmiyorum": 10.4,
+        "kararsizim": 16.8,
+        "katiliyorum": 44.3,
+        "kesinlikle_katiliyorum": 22.9,
+        "toplam": 100
+      },
+      {
+        "Program": "SOSYOLOJI",
+        "kesinlikle_katilmiyorum": 4.9,
+        "katilmiyorum": 9.7,
+        "kararsizim": 14.6,
+        "katiliyorum": 46.8,
+        "kesinlikle_katiliyorum": 24,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 5.3,
+        "katilmiyorum": 10.1,
+        "kararsizim": 15.9,
+        "katiliyorum": 45.2,
+        "kesinlikle_katiliyorum": 23.5,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 7.8,
+        "katilmiyorum": 13.6,
+        "kararsizim": 18.4,
+        "katiliyorum": 39.7,
+        "kesinlikle_katiliyorum": 20.5,
+        "toplam": 100
+      },
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 9.2,
+        "katilmiyorum": 14.8,
+        "kararsizim": 22.3,
+        "katiliyorum": 35.6,
+        "kesinlikle_katiliyorum": 18.1,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 6.4,
+        "katilmiyorum": 11.3,
+        "kararsizim": 17.2,
+        "katiliyorum": 42.8,
+        "kesinlikle_katiliyorum": 22.3,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_15",
+    "title": "Kalite Güvence Sistemi",
+    "description": "Kalite Güvence Sistemi ile ilgili anket sonuçları",
+    "participantCount": 8,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 4.8,
+        "katilmiyorum": 9.2,
+        "kararsizim": 13.6,
+        "katiliyorum": 48.7,
+        "kesinlikle_katiliyorum": 23.7,
+        "toplam": 100
+      },
+      {
+        "Program": "SPOR BILIMLERI",
+        "kesinlikle_katilmiyorum": 5.6,
+        "katilmiyorum": 10.8,
+        "kararsizim": 14.9,
+        "katiliyorum": 45.3,
+        "kesinlikle_katiliyorum": 23.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 3.9,
+        "katilmiyorum": 8.4,
+        "kararsizim": 12.7,
+        "katiliyorum": 50.2,
+        "kesinlikle_katiliyorum": 24.8,
+        "toplam": 100
+      },
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 9.7,
+        "katilmiyorum": 15.3,
+        "kararsizim": 18.6,
+        "katiliyorum": 38.4,
+        "kesinlikle_katiliyorum": 18,
+        "toplam": 100
+      },
+      {
+        "Program": "ELEKTRIK ELEKTRONIK MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 7.8,
+        "katilmiyorum": 13.2,
+        "kararsizim": 16.4,
+        "katiliyorum": 42.6,
+        "kesinlikle_katiliyorum": 20,
+        "toplam": 100
+      },
+      {
+        "Program": "SIYASET BILIMI",
+        "kesinlikle_katilmiyorum": 12.4,
+        "katilmiyorum": 18.7,
+        "kararsizim": 19.3,
+        "katiliyorum": 34.2,
+        "kesinlikle_katiliyorum": 15.4,
+        "toplam": 100
+      },
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 6.2,
+        "katilmiyorum": 11.4,
+        "kararsizim": 15.8,
+        "katiliyorum": 44.9,
+        "kesinlikle_katiliyorum": 21.7,
+        "toplam": 100
+      },
+      {
+        "Program": "BILGISAYAR MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 8.9,
+        "katilmiyorum": 14.6,
+        "kararsizim": 20.4,
+        "katiliyorum": 38.7,
+        "kesinlikle_katiliyorum": 17.4,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_16",
+    "title": "Araştırma Desteği",
+    "description": "Araştırma Desteği ile ilgili anket sonuçları",
+    "participantCount": 6,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 6.8,
+        "katilmiyorum": 11.7,
+        "kararsizim": 15.9,
+        "katiliyorum": 43.6,
+        "kesinlikle_katiliyorum": 22,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 7.4,
+        "katilmiyorum": 12.8,
+        "kararsizim": 17.3,
+        "katiliyorum": 41.2,
+        "kesinlikle_katiliyorum": 21.3,
+        "toplam": 100
+      },
+      {
+        "Program": "HEMSIRELIK",
+        "kesinlikle_katilmiyorum": 10.6,
+        "katilmiyorum": 16.4,
+        "kararsizim": 21.7,
+        "katiliyorum": 35.8,
+        "kesinlikle_katiliyorum": 15.5,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK",
+        "kesinlikle_katilmiyorum": 8.2,
+        "katilmiyorum": 13.9,
+        "kararsizim": 18.6,
+        "katiliyorum": 39.7,
+        "kesinlikle_katiliyorum": 19.6,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 9.3,
+        "katilmiyorum": 15.1,
+        "kararsizim": 19.4,
+        "katiliyorum": 37.4,
+        "kesinlikle_katiliyorum": 18.8,
+        "toplam": 100
+      },
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 5.7,
+        "katilmiyorum": 10.3,
+        "kararsizim": 16.8,
+        "katiliyorum": 44.9,
+        "kesinlikle_katiliyorum": 22.3,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_17",
+    "title": "Üniversite-Sanayi İşbirliği",
+    "description": "Üniversite-Sanayi İşbirliği ile ilgili anket sonuçları",
+    "participantCount": 8,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 5.8,
+        "katilmiyorum": 10.6,
+        "kararsizim": 14.7,
+        "katiliyorum": 46.2,
+        "kesinlikle_katiliyorum": 22.7,
+        "toplam": 100
+      },
+      {
+        "Program": "MIMARLIK",
+        "kesinlikle_katilmiyorum": 8.9,
+        "katilmiyorum": 14.3,
+        "kararsizim": 16.8,
+        "katiliyorum": 41.3,
+        "kesinlikle_katiliyorum": 18.7,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 7.2,
+        "katilmiyorum": 12.4,
+        "kararsizim": 17.9,
+        "katiliyorum": 42.8,
+        "kesinlikle_katiliyorum": 19.7,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 5.3,
+        "katilmiyorum": 9.8,
+        "kararsizim": 13.6,
+        "katiliyorum": 48.9,
+        "kesinlikle_katiliyorum": 22.4,
+        "toplam": 100
+      },
+      {
+        "Program": "MAKINE MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 6.7,
+        "katilmiyorum": 11.9,
+        "kararsizim": 16.3,
+        "katiliyorum": 43.7,
+        "kesinlikle_katiliyorum": 21.4,
+        "toplam": 100
+      },
+      {
+        "Program": "MAKINE MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 5.9,
+        "katilmiyorum": 10.7,
+        "kararsizim": 15.2,
+        "katiliyorum": 45.8,
+        "kesinlikle_katiliyorum": 22.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 6.4,
+        "katilmiyorum": 11.3,
+        "kararsizim": 16.7,
+        "katiliyorum": 44.2,
+        "kesinlikle_katiliyorum": 21.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK ENSTITUSU",
+        "kesinlikle_katilmiyorum": 7.8,
+        "katilmiyorum": 13.2,
+        "kararsizim": 19.8,
+        "katiliyorum": 40.6,
+        "kesinlikle_katiliyorum": 18.6,
+        "toplam": 100
+      }
+    ]
+  },
+  {
+    "id": "section_18",
+    "title": "Uluslararası İlişkiler ve Değişim Programları",
+    "description": "Uluslararası İlişkiler ve Değişim Programları ile ilgili anket sonuçları",
+    "participantCount": 6,
+    "totalSurveys": 1,
+    "rows": [
+      {
+        "Program": "TARIH",
+        "kesinlikle_katilmiyorum": 8.4,
+        "katilmiyorum": 13.7,
+        "kararsizim": 18.9,
+        "katiliyorum": 38.6,
+        "kesinlikle_katiliyorum": 20.4,
+        "toplam": 100
+      },
+      {
+        "Program": "SAGLIK BILIMLERI",
+        "kesinlikle_katilmiyorum": 7.9,
+        "katilmiyorum": 12.8,
+        "kararsizim": 20.3,
+        "katiliyorum": 39.4,
+        "kesinlikle_katiliyorum": 19.6,
+        "toplam": 100
+      },
+      {
+        "Program": "IKTISAT",
+        "kesinlikle_katilmiyorum": 9.6,
+        "katilmiyorum": 15.2,
+        "kararsizim": 22.7,
+        "katiliyorum": 35.8,
+        "kesinlikle_katiliyorum": 16.7,
+        "toplam": 100
+      },
+      {
+        "Program": "BILGISAYAR MUHENDISLIGI",
+        "kesinlikle_katilmiyorum": 6.8,
+        "katilmiyorum": 11.4,
+        "kararsizim": 16.9,
+        "katiliyorum": 42.7,
+        "kesinlikle_katiliyorum": 22.2,
+        "toplam": 100
+      },
+      {
+        "Program": "PSIKOLOJI",
+        "kesinlikle_katilmiyorum": 8.7,
+        "katilmiyorum": 14.3,
+        "kararsizim": 19.6,
+        "katiliyorum": 38.9,
+        "kesinlikle_katiliyorum": 18.5,
+        "toplam": 100
+      },
+      {
+        "Program": "TIP FAKULTESI",
+        "kesinlikle_katilmiyorum": 11.2,
+        "katilmiyorum": 17.4,
+        "kararsizim": 23.8,
+        "katiliyorum": 32.6,
+        "kesinlikle_katiliyorum": 15,
+        "toplam": 100
+      }
+    ]
+  }
+]

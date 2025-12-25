@@ -1,0 +1,6 @@
+Program,Kesinlikle Katilmiyorum,Katilmiyorum,Kararsizim,Katiliyorum,Kesinlikle Katiliyorum,Toplam
+On lisans,18.4,25.6,19.7,26.8,9.5,100.0
+Yuksek Lisans,16.2,23.1,17.9,30.4,12.4,100.0
+Lisans,17.3,24.4,18.8,28.6,10.9,100.0
+Doktora,14.8,21.5,16.5,32.7,14.5,100.0
+Toplam,16.9,23.8,18.4,29.3,11.6,100.0
